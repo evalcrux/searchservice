@@ -1,0 +1,28 @@
+{
+  "name": "searchservice",
+  "version": "0.1.0",
+  "description": "Basic elasticsearch search client POC",
+  "main": "index.js",
+  "scripts": {
+    "test": "search"
+  },
+  "repository": {
+    "type": "git",
+    "url": "searchservice"
+  },
+  "keywords": [
+    "search",
+    "elasticsearch"
+  ],
+  "author": "Andrew Anderson",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "elasticsearch": "^13.2.0",
+    "express": "^4.15.3",
+    "morgan": "^1.8.2"
+  }
+}
